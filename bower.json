@@ -1,0 +1,47 @@
+{
+  "name": "angular-formly-loader",
+  "main": "formly-loader.js",
+  "version": "0.0.1",
+  "authors": [
+    "SchizoDuckie <https://github.com/SchizoDuckie>"    
+  ],
+  "contributors": [
+    "Timsvoice <https://github.com/timsvoice>"
+  ],
+  "description": "Write forms in JSON and load into Angular Formly",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "Angular",
+    "formly",
+    "form",
+    "loader",
+    "json",
+    "html"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/timsvoice/formly-loader",
+  "ignore": [
+    "node_modules",
+    "tests",
+    "local-examples",
+    ".editorconfig",
+    ".gitignore",
+    ".eslintrc",
+    ".npmignore",
+    ".travis.yml",
+    "CONTRIBUTING.md",
+    "karma.conf.js",
+    "src",
+    "webpack.config.js",
+    "coverage",
+    "other",
+    ".test",
+    "scripts"
+  ],
+  "dependencies": {
+    "angular": "~1.4",
+    "angular-formly": "~6.24"
+  }
+}
