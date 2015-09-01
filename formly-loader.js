@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('angular-formly-loader').factory('FormlyLoader', function($http, $parse) {
+angular.module('angular-formly-loader', []).factory('FormlyLoader', function($http, $parse) {
 
     var config = {
         basePath: '',
